@@ -5,7 +5,7 @@ import { HeroService } from './hero.service'
 
 @Component({
   providers: [HeroService],
-  selector: 'my-app',
+  selector: 'my-heroes',
   template: `
     <h1>Hello {{title}}</h1>
     <h2>My heroes</h2>
@@ -70,7 +70,7 @@ import { HeroService } from './hero.service'
 
 })
 
-export class AppComponent implements OnInit {
+export class HeroesComponent implements OnInit {
   constructor(private heroService: HeroService) {
     console.log("aaaa");
   }
