@@ -4,7 +4,6 @@ import { Hero } from './hero';
 import { HeroService } from './hero.service'
 
 @Component({
-  providers: [HeroService],
   selector: 'my-heroes',
   template: `
     <h2>My heroes</h2>
